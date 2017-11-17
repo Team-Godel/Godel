@@ -1,5 +1,4 @@
 #include <windows.h>
-#include <Wingdi.h>
 
 
 HINSTANCE instance;
