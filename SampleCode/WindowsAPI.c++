@@ -25,7 +25,7 @@ int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignes
     classeFenetre.lpszMenuName = NULL;   // Define the associated menu to this window (Here none, equal to NULL)
     classeFenetre.lpszClassName = "classeF";   // The name of the class
 
-    if(!RegisterClass(&classeFenetre)) return FALSE;
+    if(!RegisterClass(&classeFenetre)) return FALSE;    // Save the window
 
     fenetrePrincipale = CreateWindow("classeF", "Windows API Test", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 640, 480, NULL, NULL, cetteInstance, NULL);  // Create a window in 640 X 480
 
@@ -33,10 +33,10 @@ int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignes
     UpdateWindow(fenetrePrincipale);   // Update the state of the window
 
 
-    while (GetMessage(&message, NULL, 0, 0))
+    while (GetMessage(&message, NULL, 0, 0))  // Recovers the events of all the windows of the instance in "message"
     {
-        TranslateMessage(&message);
-        DispatchMessage(&message);
+        TranslateMessage(&message);  // Traduction of the event
+        DispatchMessage(&message);   // Send the message to the window
     }
 
     return 0;
@@ -48,7 +48,7 @@ LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message
     switch (message)   // Events
     {
         case WM_CREATE:
-                SetMenu(fenetrePrincipale, LoadMenu(instance, "ID_MENU"));
+                SetMenu(fenetrePrincipale, LoadMenu(instance, "ID_MENU"));  // Associate the menu with the window
         return 0;
 
         case WM_DESTROY:
@@ -56,7 +56,7 @@ LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message
             return 0;
 
         default:
-            return DefWindowProc(fenetrePrincipale, message, wParam, lParam);
+            return DefWindowProc(fenetrePrincipale, message, wParam, lParam);   // If there is no message, return the windows default procedur
     }
 }
 
