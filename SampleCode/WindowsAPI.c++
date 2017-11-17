@@ -16,14 +16,14 @@ int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignes
 
     classeFenetre.style = 0;   // Window's style
     classeFenetre.lpfnWndProc = procedureFenetrePrincipale;     // Define the CALLBACK function (Line 46)
-    classeFenetre.cbClsExtra = 0;
-    classeFenetre.cbWndExtra = 0;
-    classeFenetre.hInstance = NULL;
-    classeFenetre.hIcon = LoadIcon(NULL, IDI_APPLICATION);
-    classeFenetre.hCursor = LoadCursor(NULL, IDC_ARROW);
-    classeFenetre.hbrBackground = (HBRUSH)(1 + COLOR_BTNFACE);
-    classeFenetre.lpszMenuName = NULL;
-    classeFenetre.lpszClassName = "classeF";
+    classeFenetre.cbClsExtra = 0;   // Number of bytes following the structure. (Useless, Always equal to 0)
+    classeFenetre.cbWndExtra = 0;   // Same but following the instance (Always equal to 0)
+    classeFenetre.hInstance = NULL;  // Define the instance of the window
+    classeFenetre.hIcon = LoadIcon(NULL, IDI_APPLICATION);  // Define the icon to use for the window
+    classeFenetre.hCursor = LoadCursor(NULL, IDC_ARROW);   // Define the default cursor to use in this window 
+    classeFenetre.hbrBackground = (HBRUSH)(1 + COLOR_BTNFACE);  // The Default background color in the window
+    classeFenetre.lpszMenuName = NULL;   // Define the associated menu to this window (Here none, equal to NULL)
+    classeFenetre.lpszClassName = "classeF";   // The name of the class
 
     if(!RegisterClass(&classeFenetre)) return FALSE;
 
