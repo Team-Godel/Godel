@@ -45,27 +45,10 @@ int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignes
 
 LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message, WPARAM wParam, LPARAM lParam)
 {
-
-    HBRUSH hbRed, hbrOld;
-    HPEN hp2px, hpOld;
-
-
-              hp2px = CreatePen(PS_SOLID, 2, 0x00FF0000);
-
-              hpOld = SelectObject(hdc,hp2px);
-
-
-
-              hbRed = CreateSolidBrush(0x000000FF);
-
-              hbrOld = SelectObject(hdc,hbRed);
-
-
     switch (message)
     {
         case WM_CREATE:
                 SetMenu(fenetrePrincipale, LoadMenu(instance, "ID_MENU"));
-                Rectangle(hdc, 160, 60, 260, 100);
         return 0;
 
         case WM_DESTROY:
