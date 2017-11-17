@@ -38,7 +38,8 @@ These function names start with an @ sign and are suffixed with the @parameter c
 
 Examples:
 
-```Declaration                        ----------------------->    decorated name
+```
+Declaration                        ----------------------->    decorated name
 
 void __cdecl foo(void);            ----------------------->    _foo
 
@@ -56,7 +57,8 @@ void __fastcall foo(void);         ----------------------->    @foo@0
 
 void __fastcall foo(int a);        ----------------------->    @foo@4
 
-void __fastcall foo(int a, int b); ----------------------->    @foo@8```
+void __fastcall foo(int a, int b); ----------------------->    @foo@8
+```
 
 # Note
 I put it here because the __stdcall is defined by microsoft as the CALLBACK "flag", so, the CALLBACK work is explained here. 
