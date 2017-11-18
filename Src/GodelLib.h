@@ -71,11 +71,14 @@ namespace Godel
 	{
 	    switch (msg)
 	    {
-            case WM_DESTROY:
+              case WM_DESTROY:
 	            PostQuitMessage(0);
 	            return 0;
-            default:
+	       break;
+            
+              default:
 	            return DefWindowProc(gWindow, msg, wParam, lParam);
+	       break;
 	    }
         }
     }
