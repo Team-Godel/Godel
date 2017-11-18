@@ -71,9 +71,6 @@ namespace Godel
 	{
 		switch (msg)
 		{
-			case WM_CREATE:
-                SetMenu(gWindow, LoadMenu(hInstance, "ID_MENU"));
-                return 0;
             case WM_DESTROY:
 	            PostQuitMessage(0);
 	            return 0;
