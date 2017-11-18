@@ -12,4 +12,4 @@ Here is the links of a lot of important content for the project.
 - [Window Procedures](https://msdn.microsoft.com/en-us/library/windows/desktop/ms632593(v=vs.85).aspx)
 - [About Window Procedures](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633569(v=vs.85).aspx)
 - [Using Window Procedures](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633570(v=vs.85).aspx)
- 
+- [WNDCLASS structure](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633576(v=vs.85).aspx)
