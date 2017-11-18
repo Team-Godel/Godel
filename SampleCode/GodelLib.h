@@ -17,7 +17,7 @@ namespace Godel
 		int destroyer();
 		LRESULT CALLBACK mainFunctionProcedure(HWND gWindow, UINT message, WPARAM wParam, LPARAM lParam);
 
-	public:
+	protected:
 		HINSTANCE hInstance;
 		HINSTANCE hPrevInstance;
 		PWSTR pCmdLine;
