@@ -7,9 +7,6 @@
 #define GODELLIB_H_INCLUDED
 
 
-int Test();
-
-
 namespace Godel
 {
 
