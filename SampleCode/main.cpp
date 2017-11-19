@@ -3,7 +3,7 @@
 
 HINSTANCE instance;
 
-LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message, WPARAM wParam, LPARAM lParam);
+LRESULT CALLBACK procedureFenetrePrincipale(HWND, UINT, WPARAM, LPARAM);
 
 int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignesDeCommande, int modeDAffichage)
 {
@@ -44,8 +44,26 @@ int WinMain (HINSTANCE cetteInstance, HINSTANCE precedenteInstance, LPSTR lignes
 
 LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message, WPARAM wParam, LPARAM lParam)
 {
-    switch(message)   // events
+    static int posLineX = 100, posLineY = 50, widthY = 50;   // posLineX determine the position from the left
+
+    switch (message)   // events
     {
+        case WM_PAINT:     // Drawing
+        {
+         PAINTSTRUCT ps;
+
+         HDC hDC = BeginPaint(fenetrePrincipale, &ps);    // Start painting
+
+         SelectObject(hDC, PS_SOLID);     //Solid Brush
+
+         MoveToEx(hDC, posLineX, posLineY, NULL);
+         LineTo(hDC, posLineX, widthY+posLineY);
+
+         EndPaint(fenetrePrincipale, &ps);
+
+         break;
+        }
+
         case WM_DESTROY:   // Exit the program
         {
             PostQuitMessage(0);
@@ -57,7 +75,8 @@ LRESULT CALLBACK procedureFenetrePrincipale(HWND fenetrePrincipale, UINT message
             return DefWindowProc(fenetrePrincipale, message, wParam, lParam);
          break;
         }
-
     }
+
+    return 0;
 }
 
