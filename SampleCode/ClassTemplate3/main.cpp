@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
     GDL *Gobj = new GDL;    // Create a new instance of GDL
