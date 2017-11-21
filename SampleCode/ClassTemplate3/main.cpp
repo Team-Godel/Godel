@@ -17,12 +17,12 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 
     while((bRet = GetMessage(&msg, 0, 0, 0 )))
     {
-            TranslateMessage(&msg);
-            DispatchMessage(&msg);
+            TranslateMessage(&msg);  // Translate the keyboard's codes
+            DispatchMessage(&msg);   // Send the messages (events) to the CALL BACK function
     }
 
 
-    delete Gobj;
+    delete Gobj;  // Delete the Object Gobj
 
     return 0;
 }
