@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [Token-Pasting](https://msdn.microsoft.com/en-us/library/09dwwt6y.aspx)
 - [What is the difference between the C++ window object and the HWND object](https://msdn.microsoft.com/en-us/library/tc46f3be.aspx)
 - [Your First Windows Program](https://msdn.microsoft.com/en-us/library/windows/desktop/ff381409(v=vs.85).aspx)
 - [Creating a Window](https://msdn.microsoft.com/en-us/library/windows/desktop/ff381397(v=vs.85).aspx)
