@@ -1,6 +1,3 @@
-# Preprocessors instructions.
-Here is an example of how you can use the preprocessors instructions.
-```c++
 #include <iostream>
 // Define the macro, with it you can define every thing, notice that i do not 
 // go to declare the main function explicitly.
@@ -15,4 +12,3 @@ MAIN_TEST(name, 100)
 END_OF_SCOPE
 
 // End of the program.
-```
