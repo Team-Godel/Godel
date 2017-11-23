@@ -2,6 +2,7 @@
 #include <string>
 #include <windows.h>
 
+using namespace std;
 
 
 class GDL
