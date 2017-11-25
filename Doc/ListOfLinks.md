@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [GUI Programming with Windows API]https://www.youtube.com/watch?v=7K6HCeog09c
 - [Windows API: Windows and messages](https://www.codementor.io/malortie/build-win32-api-app-windows-messages-c-cpp-visual-studio-du107sbya)
 - [Token-Pasting](https://msdn.microsoft.com/en-us/library/09dwwt6y.aspx)
 - [What is the difference between the C++ window object and the HWND object](https://msdn.microsoft.com/en-us/library/tc46f3be.aspx)
