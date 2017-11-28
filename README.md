@@ -1,2 +1,2 @@
 # Godel
-A GUI library for C++.
+A Windows GUI library for C++
