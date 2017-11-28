@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [Conversation about Windows API implemantation](https://pastebin.com/6LS13nzS)
 - [Windows API implemantation](https://codepad.co/snippet/4bc172)
 - [GUI Programming with Windows API](https://www.youtube.com/watch?v=7K6HCeog09c)
 - [Windows API: Windows and messages](https://www.codementor.io/malortie/build-win32-api-app-windows-messages-c-cpp-visual-studio-du107sbya)
