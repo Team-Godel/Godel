@@ -13,7 +13,6 @@
 using namespace std;
 
 
-
 typedef struct
 {
 	LPSTR Tipo;
@@ -73,7 +72,7 @@ static LRESULT CALLBACK WinProcRedir(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM 
 
   public:
     GDL(HINSTANCE hInst);
-    void update(); // Iniciar la aplicación
+    void update(); // Iniciar la aplicaciÃ³n
 };
 
 
@@ -133,8 +132,6 @@ void GDL::update()
 		DispatchMessage(&mensaje);
 	}
 }
-
-
 
 
 #endif // GDL_H
