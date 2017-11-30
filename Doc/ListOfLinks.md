@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [Microsoft Assembly (MASM)](https://openclassrooms.com/courses/en-profondeur-avec-l-assembleur)
 - [Software Architecture](http://cis.stvincent.edu/html/tutorials/swd/)
 - [Conversation about Windows API implemantation](https://pastebin.com/6LS13nzS)
 - [Windows API implemantation](https://codepad.co/snippet/4bc172)
