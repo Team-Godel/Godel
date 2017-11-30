@@ -1,6 +1,8 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [Software architecture 3](https://www.genbetadev.com/metodologias-de-programacion/patrones-de-diseno-que-son-y-por-que-debes-usarlos)
+- [Software architecture 2](https://www.genbetadev.com/metodologias-de-programacion/doce-principios-de-diseno-que-todo-desarrollador-deberia-conocer)
 - [Microsoft Assembly (MASM)](https://openclassrooms.com/courses/en-profondeur-avec-l-assembleur)
 - [Software Architecture](http://cis.stvincent.edu/html/tutorials/swd/)
 - [Conversation about Windows API implemantation](https://pastebin.com/6LS13nzS)
