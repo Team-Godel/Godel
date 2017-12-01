@@ -8,7 +8,6 @@
 #include "help.h"
 #include "Constants.h"
 
-using namespace std;
 
 
 class GDL      // Class of a GDL object
@@ -46,6 +45,7 @@ static LRESULT CALLBACK WinProcRedir(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM 
 
   public: // public methods
     GDL(HINSTANCE hInst, LPSTR w_title, int x, int y, int w, int h);
+    void GodelHelp(std::string topic);
     void update();
     void showCursor(bool onOff);
     void setCursorPosition(int x, int y);
