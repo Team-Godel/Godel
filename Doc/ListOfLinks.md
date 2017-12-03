@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [Namespaces](https://openclassrooms.com/courses/les-espaces-de-noms-namespace(french))
 - [Service-oriented modeling and architecture](https://www.ibm.com/developerworks/library/ws-soa-design1/)
 - [Library Oriented Architecture](https://en.wikipedia.org/wiki/Library_Oriented_Architecture)
 - [Software architecture 3](https://www.genbetadev.com/metodologias-de-programacion/patrones-de-diseno-que-son-y-por-que-debes-usarlos)
