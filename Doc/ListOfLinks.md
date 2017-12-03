@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [To get help](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [Software Architecture Patterns](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)
 - [Namespaces](https://openclassrooms.com/courses/les-espaces-de-noms-namespace(french))
 - [Service-oriented modeling and architecture](https://www.ibm.com/developerworks/library/ws-soa-design1/)
