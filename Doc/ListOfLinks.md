@@ -1,6 +1,7 @@
 # Links!  
 Here is the links of a lot of important content for the project.
 
+- [ASM with GCC](https://asm.developpez.com/cours/asminline/)
 - [Lambda Functions](http://en.cppreference.com/w/cpp/utility/functional/function)
 - [To get help](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [Software Architecture Patterns](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)
